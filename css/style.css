@@ -1,0 +1,68 @@
+nav {
+    text-align: right;
+}
+
+.parent {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 16px;
+}
+
+.childA, .childB {
+    width: 50%;
+}
+
+.childA {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.childB {
+    padding: 16px;
+}
+
+.class {
+    width: 100px;
+    height: 100px;
+    background-color: cyan;
+    border-radius: 50%;
+}
+
+.name {
+    color: chartreuse;
+}
+
+.quality {
+    color: crimson;
+}
+
+.about {
+    color:darkblue;
+}
+
+footer {
+    color: black;
+    text-align: center;
+
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .parent {
+        flex-direction: column;
+    }
+
+    .childA, .childB {
+        width: 100%;
+    }
+}
+
+
+
+.pic{
+    border-radius: 50%;
+}
+}
